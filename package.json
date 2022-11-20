@@ -1,0 +1,31 @@
+{
+	"dependencies": {
+		"@dcloudio/uni-ui": "^1.4.23",
+		"uni-read-pages": "^1.0.5",
+		"uni-simple-router": "^2.0.7"
+	},
+	"devDependencies": {
+		"sass": "^1.56.1",
+		"sass-loader": "^13.2.0"
+	},
+	"uni-app": {
+		"scripts": {
+			"dev": {
+				"title": "开发环境",
+				"browser": "chrome",
+				"env": {
+					"UNI_PLATFORM": "h5",
+					"CURRENT_ENV": "开发环境"
+				}
+			},
+			"prod": {
+				"title": "生产环境",
+				"browser": "chrome",
+				"env": {
+					"UNI_PLATFORM": "h5",
+					"CURRENT_ENV": "生产环境"
+				}
+			}
+		}
+	}
+}
